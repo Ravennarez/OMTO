@@ -1,4 +1,4 @@
-## OMTO Budget Dashboard (Municipality of Bulu Ban)
+## OMTO Budget Dashboard (Municipality of Bulusan)
 
 Frontend-only React dashboard for the Office of the Municipal Tourism Officer (OMTO), showing fiscal year budget allocation and obligation tracking with mock data.
 
