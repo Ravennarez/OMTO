@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-slate-100 text-slate-800;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-slate-100;
+}
+
+.card-header {
+  @apply flex items-center justify-between mb-2 text-sm font-medium text-slate-500;
+}
+
+.card-title {
+  @apply text-base font-semibold text-slate-800;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 focus-visible:ring-offset-2;
+}
+
+.btn-success {
+  @apply inline-flex items-center justify-center rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-green-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/70 focus-visible:ring-offset-2;
+}
+
